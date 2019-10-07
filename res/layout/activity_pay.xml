@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/page_pay_LeftandRight_margin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/page_pay_tips"
+            android:textColor="#f00" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="@dimen/page_pay_top_margin"
+            android:layout_marginTop="@dimen/page_pay_top_margin"
+            android:background="#33333333" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!--  -->
+            <!-- 
+            <TextView
+                android:id="@+id/memberid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/page_pay_top_margin" />
+             -->
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/page_pay_top_margin" />
+
+            <TextView
+                android:id="@+id/cardid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/page_pay_top_margin" />
+
+            <TextView
+                android:id="@+id/imei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/web_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background" >
+
+        <TextView
+            android:textColor="@color/textColor"
+            android:id="@+id/refreshtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/pay_refresh" />
+
+        <Button
+            android:onClick="refresh"
+            android:layout_marginBottom="@dimen/activity_horizontal_mid_margin"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/refreshtext"
+            android:background="@drawable/refresh" />
+    </RelativeLayout>
+
+</RelativeLayout>

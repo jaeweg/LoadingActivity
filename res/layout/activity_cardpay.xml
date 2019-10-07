@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:doov="http://schemas.android.com/apk/res/com.doos.secure"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <EditText
+            android:layout_width="wrap_content"
+
+            android:layout_height="1dp"
+
+            android:background="@null" />
+
+        <com.doov.secure.ui.view.DoovEditText
+			android:layout_marginLeft="25dp"
+            android:id="@+id/card_pwd"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+
+            doov:editHint="@string/card_pay_writer_pwd"
+
+            doov:textCanWrite="true"
+             />
+		
+</LinearLayout>

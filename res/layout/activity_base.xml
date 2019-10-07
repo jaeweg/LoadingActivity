@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/base_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_size"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="@color/title_bg" >
+
+        <TextView
+            android:id="@+id/base_title"
+            android:drawableLeft="@drawable/return_img"
+            android:drawablePadding="@dimen/base_title_text_img_margin_size"
+            android:textSize="@dimen/base_title_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@drawable/title_text_color" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/base_next"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/base_button_bg"
+        android:layout_height="@dimen/base_btn_height"
+        android:onClick="btnclick"
+        android:text="@string/base_next" />
+
+    <LinearLayout
+        android:id="@+id/contentview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/base_next"
+        android:layout_below="@id/base_title_bar"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>

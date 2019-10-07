@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="doov_edittext">
+        <attr name="titleText" format="string" />  
+        <attr name="errorText" format="string" /> 
+        <attr name="editHint" format="string" />   
+        <attr name="textCanWrite" format="boolean" ></attr>
+    </declare-styleable>
+
+</resources>

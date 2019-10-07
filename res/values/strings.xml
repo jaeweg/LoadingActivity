@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">朵唯无忧保</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!-- base -->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="base_next">下一步</string>
+    <!-- packageInfoActivity -->
+    <string name="page_button">我同意本条款</string>
+    <!-- loading -->
+    <string name="No_longer_tips">不再提示</string>
+    <string name="net_refresh">重试</string>
+    <string name="agree_and_continue">同意</string>
+    <string name="continue_message">无忧保在使用过程中需要连接网络，是否同意并继续?</string>
+    <string name="net_client_error">网络连接异常</string>
+    <string name="net_setting">设置网络</string>
+    <string name="exit">退出</string>
+    <string name="no_net_client_tips">无网络连接</string>
+    <string name="over_buy_time_tips">已经超过无忧保规定购买时限！</string>
+    <string name="loading">加载中</string>
+    <string name="net_error_tips">网络异常，请稍后重试！</string>
+    <string name="web_error_tips">服务器数据异常,请稍后重试！</string>
+    <string name="page_loading_text">无忧在手&#160;&#160;&#160;玩机不愁</string>
+    <!-- 填写资料页面 -->
+    <string name="page_write_info_title">填写资料</string>
+    <string name="page_write_username_error">格式错误</string>
+    <string name="page_write_username_title">姓名</string>
+    <string name="page_write_username_hint">请输入您的姓名</string>
+    <string name="page_write_mobile_error">格式错误</string>
+    <string name="page_write_mobile_title">手机号码</string>
+    <string name="page_write_mobile_hint">请输入手机号码</string>
+    <string name="page_write_id_error">格式错误</string>
+    <string name="page_write_id_title">身份证号</string>
+    <string name="page_write_id_hint">请输入身份证号码</string>
+    <string name="page_write_time_title">购机时间</string>
+    <string name="page_write_time_hint">购机时间</string>
+    <string name="page_write_net_error_tips">网络异常，请重试！</string>
+    <!-- 信息提交成功支付页面 -->
+    <string name="page_pay_tips">恭喜您，信息提交成功！请及时付款</string>
+    <string name="page_pay_info_title">信息提交成功</string>
+    <string name="page_pay_paybtn_text">立即支付</string>
+    <string name="page_pay_memberid_text">您的朵唯会员卡号是：&#160;</string>
+    <string name="page_pay_name_text">您的姓名：&#160;</string>
+    <string name="page_pay_cardid_text">身份证号：&#160;</string>
+    <string name="page_pay_imei_text">IMEI号：&#160;</string>
+    <!-- mainactivity -->
+    <string name="page_main_info_title">购买朵唯无忧保障服务</string>
+    <!-- 无忧保选择套餐界面 -->
+    <string name="page_select_package_btn_txt">立即购买</string>
+    <string name="page_select_rmb_txt">￥&#160;</string>
+    <string name="page_writer_time_empty_tips">请选择购机时间</string>
+    <string name="page_writer_info_empty_tips">请将资料填写完整</string>
+    <string name="title_activity_confirmed">ConfirmedActivity</string>
+    <!-- 支付界面 -->
+    <string name="no_wx_app">没有检测到微信客户端！</string>
+    <string name="wx_version_low_tips">检测到的微信客户端版本过旧，请更新后重试！</string>
+    <string name="pay_refresh">网络异常，请刷新！</string>
+    <string name="pay_error">支付失败！</string>
+    <string name="alipay_name">支付宝</string>
+    <string name="weixin_name">微信</string>
+    <string name = "zhifuka_name">支付卡</string>
+    <!-- 审核页面 -->
+    <string name="page_confirm_title">我的无忧保</string>
+    <string name="hotline_server">无忧保全国服务专线: 400-700-3456</string>
+    <string name="hotline_insurance">无忧保全国理赔专线: 400-700-1951</string>
+    <string name="confirm_succes">尊敬的朵唯手机用户：\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;您已成功购买朵唯手机无忧保，您的会员卡号是：%1$s，感谢您对朵唯手机的支持。</string>
+    <string name="confirm_failure">尊敬的朵唯手机用户：\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;对不起，经过审核验证后,您的手机无法购买朵唯无忧保,如需查询详情,请拨打无忧保服务热线。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;使用支付宝或者微信支付的用户,您的支付金额将会在15日内退还到您的支付账户上,请注意查收。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;使用无忧卡支付的账户,请拨打无忧保险服务热线查询具体退款事宜。</string>
+    <string name="confirming">尊敬的朵唯手机用户：\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;您已支付成功，您的会员卡号是：%1$s，我们会在3个工作日内进行审核验证，审核结果将会以短信方式通知您。</string>
+    <!-- 协议详情 -->
+    <string name="is_reading">我已阅读</string>
+    <!-- 通知栏 -->
+    <string name="notify_title">无忧保</string>
+    <string name="notify_content">朵唯无忧保为新机提供全面保护，点击了解！</string>
+	
+    <!-- 支付卡填写资料 -->
+    <string name = "card_pay_writer_pwd">请填写9位数密码</string>
+    <string name = "card_pay_writer_title">支付卡支付</string>
+    <string name = "card_pay_submit">提交</string>
+    <string name = "card_pay_confirmed">确认</string>
+    <string name = "card_pay_writer_empty_tipd">请填写支付卡密码</string>
+    <string name = "card_pay_ok">恭喜您支付成功</string>
+	
+    <!-- 支付卡支付结果 -->
+    <string name = "payment_code_overdue">卡号已经过期</string>
+    <string name = "payment_code_not_activated">卡号已经使用</string>
+    <string name = "other_error">其他错误</string>
+    <string name = "carypay_fail_text">支付失败</string>
+    <string name = "cardpay_fail_OK">确定</string>
+
+    <!-- lijuan add for string -->
+    <string name = "doov_phone">朵唯女性手机</string>
+    <!-- 购买期限提示 -->
+    <string name = "buy_time_tips">注意：为了确保保险双方权益，无忧保只能在购机后3天内购买！</string>
+    <string name = "know_notice">我知道了</string>
+    <!-- 超过3天购买期限页面 -->
+    <string name="over_buy_time">尊敬的朵唯手机用户：\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;您现在的购买资格已经过期，不能购买朵唯无忧保服务了！如有疑问，请拨打朵唯无忧保客服热线进行查询。</string>
+    <!-- 购买超过1年期限页面 -->
+    <string name="over_one_year">尊敬的朵唯手机用户：\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;您购买的朵唯无忧保（1年）已经到期，后续不能继续享受无忧保提供的服务。如有疑问请拨打朵唯无忧保客服热线进行查询，谢谢您对朵唯手机的支持。</string>
+    <!-- 非法购机时间提示-->
+    <string name = "invalid_date">购机时间非法，请重新选择！</string>
+    <!-- 非法IMEI提示 -->
+    <string name = "invalid_imei_tips">IMEI获取错误，请稍后再试</string>
+    
+    <!--  ghshuai 去掉百度定位，换GPS定位    begin -->
+    <string name = "doov_gps_dialog_title">提示</string>
+    <string name = "doov_gps_dialog_body">无忧保服务需要获取您当前的位置信息\n请在设置中打开GPS</string>
+    <string name = "doov_gps_dialog_ok">确定</string>
+    <string name = "doov_gps_dialog_cancel">取消</string>
+    <!--  ghshuai 去掉百度定位，换GPS定位    end -->
+</resources>
